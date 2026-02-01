@@ -277,3 +277,31 @@ textarea {
   width: 200px;
   height: 80px;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+  font-size: 20px;
+  text-align: center;
+}
+.copy {
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+}
+.fa-telegram,
+.fa-facebook {
+  color: rgb(36, 161, 222);
+}
+.fa-instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
