@@ -10,6 +10,55 @@ body {
   background-color: #6f4e37;
   color: #ffffff;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  transition: all 0.3s ease;
+  gap: 200px;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav,
 #hero {
-  background-color: #d4a574;
+  color: white;
+  background-image: url("../images/backimage.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  text-transform: capitalize;
+  background-size: 45rem;
+  background-color: #200c00;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(5px 5px 4px black);
+  transition: 0.3s;
+}
+.logo img:hover {
+  transform: rotate(20deg) scale(1.2);
+}
+.links {
+  display: flex;
+  gap: 150px;
+}
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.links a:hover {
+  color: #04ff00;
+  transform: translatey(-5px) scale(1.2);
+  opacity: 0.8;
+}
+.links a:focus {
+  color: red;
 }
