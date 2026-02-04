@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: sans-serif;
   font-size: 16px;
@@ -52,7 +55,7 @@ nav,
   margin-left: 20px;
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   transition: 0.5s;
 }
 .links a:hover {
@@ -74,8 +77,8 @@ nav,
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
-  margin-bottom: 200px;
-  height: 100hv;
+  margin-bottom: 100rem;
+  height: 100vh;
 }
 .hero-text {
   display: flex;
@@ -177,8 +180,7 @@ button:hover {
     rgb(51, 182, 152),
     rgb(208, 53, 53)
   );
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100rem;
   color: #200c00;
 }
 .menu-text p {
@@ -243,6 +245,7 @@ h2 {
   align-items: center;
   gap: 10em;
   background-image: url("../images/cafe.jpg");
+  margin-bottom: 100rem;
 }
 .about-image img {
   max-width: 100%;
